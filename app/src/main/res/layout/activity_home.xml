@@ -8,6 +8,6 @@
     android:orientation="vertical"
     tools:context="com.swipeme.www.swipeme.HomeActivity$PlaceholderFragment"
     android:background="@mipmap/grey"
-    android:id="@+id/big_layout">
+    android:id="@+id/container">
 
 </LinearLayout>

@@ -1,0 +1,252 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.swipeme.www.swipeme.HomeActivity$PlaceholderFragment"
+    android:id="@+id/big_layout">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_halls"
+        android:layout_alignLeft="@+id/page_buttons"
+        android:layout_alignStart="@+id/page_buttons">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkboxList">
+
+            <!--<TextView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:text="SwipeMe"-->
+                <!--android:id="@+id/textView"-->
+                <!--android:layout_gravity="left|center_horizontal"-->
+                <!--android:textSize="50sp"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--android:fontFamily="sans-serif-medium"-->
+                <!--android:background="@drawable/bluebar"-->
+                <!--android:textAlignment="center"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_weight="0.2"-->
+                <!--/>-->
+<!--
+            <CheckBox
+                android:id="@+id/check_bplate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="@string/food_bplate"
+                android:background="@drawable/white"
+                android:layout_weight="0.09"
+                android:textSize="25sp"
+                />
+
+            <CheckBox
+                android:id="@+id/check_covel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/white"
+                android:text="@string/food_covel"
+                android:layout_weight="0.09"
+                android:textSize="25sp"/>
+
+            <CheckBox
+                android:id="@+id/check_deneve"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="@string/food_deneve"
+                android:background="@drawable/white"
+                android:layout_weight="0.09"
+                android:textSize="25sp"/>
+
+            <CheckBox
+                android:id="@+id/check_feast"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="@string/food_feast"
+                android:background="@drawable/white"
+                android:layout_weight="0.09"
+                android:textSize="25sp"
+                />
+
+            <CheckBox
+                android:id="@+id/check_bcafe"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="@string/food_bcafe"
+                android:background="@drawable/white"
+                android:checked="false"
+                android:layout_weight="0.09"
+                android:textSize="25sp"/>
+
+            <CheckBox
+                android:id="@+id/check_1919"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/white"
+                android:text="@string/food_1919"
+                android:layout_weight="0.09"
+                android:textSize="25sp"
+                />
+
+            <CheckBox
+                android:id="@+id/check_rendez"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="@string/food_rendez"
+                android:background="@drawable/white"
+                android:checked="false"
+                android:layout_weight="0.09"
+                android:textSize="25sp"/>
+
+            <CheckBox
+                android:id="@+id/check_latenight"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/white"
+                android:text="@string/food_latenight"
+                android:layout_weight="0.09"
+                android:textSize="25sp"
+                />
+
+            <CheckBox
+                android:id="@+id/check_hedrick"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/white"
+                android:text="@string/food_hedrick"
+                android:layout_weight="0.09"
+                android:textSize="25sp"
+                />
+-->
+          <ToggleButton
+             android:layout_width="fill_parent"
+             android:layout_height="120dp"
+             android:id="@+id/bplateButton"
+             android:adjustViewBounds="true"
+             android:scaleType="fitXY"
+             />
+
+            <ToggleButton
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/feastButton"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+             />
+
+            <ToggleButton
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/covelButton"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+               />
+
+            <ToggleButton
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/deneveButton"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                />
+
+            <ToggleButton
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/bruincafeButton"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                />
+            <ToggleButton
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/cafe1919Button"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                />
+            <ToggleButton
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/latenightButton"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                />
+
+            <ToggleButton
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/rendezvousButton"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                />
+            
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="47.5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/page_buttons"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" >
+        <com.swipeme.www.swipeme.ButtonPlus
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/button_buy"
+
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:onClick="startBuyActivity"
+/>
+
+        <com.swipeme.www.swipeme.ButtonPlus
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sell"
+            android:id="@+id/button_sell"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:onClick="startSellActivity"
+/>
+    </LinearLayout>
+
+
+</RelativeLayout>
